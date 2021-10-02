@@ -1,0 +1,44 @@
+
+.main-container{
+    background-color: rgb(243, 241, 241);
+    width: 50%;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.top{
+    height: 50%;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+h1{
+    text-align: center;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+h2{
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding-bottom: 20px;
+    color: black;
+}
+
+h5{
+    color: black;
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 160px;
+}
+
+p{
+    color: black;
+    font-size: x-small;
+}
