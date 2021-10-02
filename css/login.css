@@ -51,12 +51,28 @@ p{
 }
 
 .butn{
+    margin-left: 45% ;
     margin-top: 195px;
-    margin-left: 350px;
 }
 
 
-.form{
+.login{
     margin-top: -200px;
     float: left;
+    margin-left: 40%;
+}
+
+input{
+    border: none 0;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(243, 241, 241);
+    color: black;
+
+}
+
+.line{
+    width: 200px;
+    height: 1px;
+    background-color: #2b2b2b;
 }
