@@ -1,0 +1,56 @@
+
+.main-container{
+    background-color: rgb(243, 241, 241);
+    width: 50%;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.top{
+    height: 50%;
+    background-color: rgb(138, 135, 135);
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+h2{
+    color: black;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+h4{
+    color: black;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+h6{
+    color: black;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding-top: 20px;
+
+}
+
+p{
+    color: black;
+    font-size: x-small;
+}
+
+.bottom{
+    height: 50%;
+}
+
+.butn{
+    margin-top: 195px;
+    margin-left: 350px;
+}
