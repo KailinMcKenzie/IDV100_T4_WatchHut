@@ -9,7 +9,7 @@
 
 .top{
     height: 50%;
-    background-color: rgb(138, 135, 135);
+    background-color: rgb(197, 192, 192);
     padding-top: 40px;
     padding-left: 40px;
     padding-right: 40px;
@@ -32,7 +32,7 @@ h4{
     padding-top: 20px;
 }
 
-h6{
+.btn-link{
     color: black;
     text-align: left;
     font-family: 'Montserrat', sans-serif;
