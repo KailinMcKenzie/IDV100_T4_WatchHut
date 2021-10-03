@@ -1,26 +1,189 @@
+.heading {
+ color: black;
+    margin-top: 100px;
+    padding-left: 100px;
+}
+
 .row {
-    padding-top: 200px;
-    height: 400px;
-  
+    height: 250px;
     text-align: center;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 30px;
+}
+
+.one {
+    margin: 0 auto;
+    height: 250px;
+    background-color: rgb(230, 132, 132);
+}
+
+.two {
+    margin: 0 auto;
+    height: 250px;
+    background-color: rgb(230, 132, 132);
+}
+
+.three {
+    margin: 0 auto;
+    height: 250px;
+    background-color: rgb(230, 132, 132);
+}
+
+.four {
+    margin: 0 auto;
+    height: 250px;
+    background-color: rgb(230, 132, 132);
+}
+
+.text-row {
+    height: 100px;
     padding-left: 100px;
     padding-right: 100px;
+    margin-top: 50px;
+    background-color: cadetblue;
 }
 
-.first { 
-    background-color: rgb(255, 175, 175);
+.text-1 {
+    background-color: rgb(255, 255, 255);
 }
 
-.second { 
-    background-color: rgb(197, 113, 113);
+.subtext-one {
+    margin: 0 auto;
+    height: 80px;
+    text-align: left;
+    background-color: rgb(123, 171, 194);
 }
 
-.third { 
-    background-color: rgb(136, 66, 66);
-
+.subtext-two {
+    margin: 0 auto;
+    height: 80px;
+    text-align: left;
+    background-color: rgb(123, 171, 194);
 }
 
-.fourth { 
-    background-color: rgb(92, 34, 34);
+.subtext-three {
+    margin: 0 auto;
+    height: 80px;
+    text-align: left;
+    background-color: rgb(123, 171, 194);
+}
 
+.subtext-four {
+    margin: 0 auto;
+    height: 80px;
+    text-align: left;
+    background-color: rgb(123, 171, 194);
+}
+
+.five {
+    margin: 0 auto;
+    height: 250px;
+    background-color: rgb(88, 145, 74);
+    margin-top: 50px;
+}
+
+.six {
+    margin: 0 auto;
+    height: 250px;
+    background-color: rgb(88, 145, 74);
+    margin-top: 50px;
+}
+
+.seven {
+    margin: 0 auto;
+    height: 250px;
+    background-color: rgb(88, 145, 74);
+    margin-top: 50px;
+}
+
+.eight {
+    margin: 0 auto;
+    height: 250px;
+    background-color: rgb(88, 145, 74);
+    margin-top: 50px;
+}
+
+.subtext-five {
+    margin: 0 auto;
+    height: 80px;
+    text-align: left;
+    background-color: rgb(248, 134, 216);
+}
+
+.subtext-six {
+    margin: 0 auto;
+    height: 80px;
+    text-align: left;
+    background-color: rgb(248, 134, 216);
+}
+
+.subtext-seven {
+    margin: 0 auto;
+    height: 80px;
+    text-align: left;
+    background-color: rgb(248, 134, 216);
+}
+
+.subtext-eight {
+    margin: 0 auto;
+    height: 80px;
+    text-align: left;
+    background-color: rgb(248, 134, 216);
+}
+
+.nine {
+    margin: 0 auto;
+    height: 250px;
+    background-color: rgb(185, 192, 81);
+    margin-top: 50px;
+}
+
+.ten {
+    margin: 0 auto;
+    height: 250px;
+    background-color: rgb(185, 192, 81);
+    margin-top: 50px;
+}
+
+.eleven {
+    margin: 0 auto;
+    height: 250px;
+    background-color: rgb(185, 192, 81);
+    margin-top: 50px;
+}
+
+.twelve {
+    margin: 0 auto;
+    height: 250px;
+    background-color: rgb(185, 192, 81);
+    margin-top: 50px;
+}
+
+.subtext-nine {
+    margin: 0 auto;
+    height: 80px;
+    text-align: left;
+    background-color: rgb(54, 96, 116);
+}
+
+.subtext-ten {
+    margin: 0 auto;
+    height: 80px;
+    text-align: left;
+    background-color: rgb(54, 96, 116);
+}
+
+.subtext-eleven {
+    margin: 0 auto;
+    height: 80px;
+    text-align: left;
+    background-color: rgb(54, 96, 116);
+}
+
+.subtext-twelve {
+    margin: 0 auto;
+    height: 80px;
+    text-align: left;
+    background-color: rgb(54, 96, 116);
 }
