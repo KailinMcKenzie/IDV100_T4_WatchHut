@@ -1,0 +1,293 @@
+.personalise {
+    margin: 0 auto;
+    height: 500px;
+    background-color: coral;
+}
+
+.text-personalise {
+    margin: 0 auto;
+    height: 500px;
+    width: 800px;
+    padding-top: 100px;
+    color: white;
+    background-color: cornflowerblue;
+}
+
+.genre-heading {
+    height: 100px;
+    background-color: grey;
+}
+
+.row {
+    height: 250px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+}
+
+.block {
+    background-color: rgb(255, 255, 255);
+}
+                                                    /*one*/
+.one {
+    margin: 0 auto;
+    height: 250px;
+    background-color: rgb(230, 132, 132);
+}
+
+.two {
+    margin: 0 auto;
+    height: 250px;
+    background-color: rgb(230, 132, 132);
+}
+
+.three {
+    margin: 0 auto;
+    height: 250px;
+    background-color: rgb(230, 132, 132);
+}
+
+.four {
+    margin: 0 auto;
+    height: 250px;
+    background-color: rgb(230, 132, 132);
+}
+
+.five {
+    margin: 0 auto;
+    height: 250px;
+    background-color: rgb(230, 132, 132);
+}
+
+.six {
+    margin: 0 auto;
+    height: 250px;
+    background-color: rgb(230, 132, 132);
+}
+
+.text-row {
+    height: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 50px;
+    background-color: cadetblue;
+}
+
+.text-1 {
+    margin-top: 20px;
+    background-color: grey;
+}
+
+.subtext-one {
+    margin: 0 auto;
+    height: 80px;
+    text-align: left;
+    background-color: rgb(123, 171, 194);
+}
+
+.subtext-two {
+    margin: 0 auto;
+    height: 80px;
+    text-align: left;
+    background-color: rgb(123, 171, 194);
+}
+
+.subtext-three {
+    margin: 0 auto;
+    height: 80px;
+    text-align: left;
+    background-color: rgb(123, 171, 194);
+}
+
+.subtext-four {
+    margin: 0 auto;
+    height: 80px;
+    text-align: left;
+    background-color: rgb(123, 171, 194);
+}
+
+.subtext-five {
+    margin: 0 auto;
+    height: 80px;
+    text-align: left;
+    background-color: rgb(123, 171, 194);
+}
+
+.subtext-six {
+    margin: 0 auto;
+    height: 80px;
+    text-align: left;
+    background-color: rgb(123, 171, 194);
+}
+
+                                                   /*two*/
+
+.block-2 {
+    background-color: rgb(255, 255, 255);
+    padding-top: 50px;
+}
+
+.seven {
+    margin: 0 auto;
+    height: 250px;
+    background-color: rgb(137, 209, 191);
+}
+
+.eight {
+    margin: 0 auto;
+    height: 250px;
+    background-color: rgb(137, 209, 191);
+}
+
+.nine {
+    margin: 0 auto;
+    height: 250px;
+    background-color: rgb(137, 209, 191);
+}
+
+.ten {
+    margin: 0 auto;
+    height: 250px;
+    background-color: rgb(137, 209, 191);
+}
+
+.eleven {
+    margin: 0 auto;
+    height: 250px;
+    background-color: rgb(137, 209, 191);
+}
+
+.twelve {
+    margin: 0 auto;
+    height: 250px;
+    background-color: rgb(137, 209, 191);
+}
+
+.subtext-seven {
+    margin: 0 auto;
+    height: 80px;
+    text-align: left;
+    background-color: rgb(63, 90, 102);
+}
+
+.subtext-eight {
+    margin: 0 auto;
+    height: 80px;
+    text-align: left;
+    background-color: rgb(63, 90, 102);
+}
+
+.subtext-nine {
+    margin: 0 auto;
+    height: 80px;
+    text-align: left;
+    background-color: rgb(63, 90, 102);
+}
+
+.subtext-ten {
+    margin: 0 auto;
+    height: 80px;
+    text-align: left;
+    background-color: rgb(63, 90, 102);
+}
+
+.subtext-eleven {
+    margin: 0 auto;
+    height: 80px;
+    text-align: left;
+    background-color: rgb(63, 90, 102);
+}
+
+.subtext-twelve {
+    margin: 0 auto;
+    height: 80px;
+    text-align: left;
+    background-color: rgb(63, 90, 102);
+}
+
+                                                /*three*/
+
+.block-3 {
+    background-color: rgb(255, 255, 255);
+    padding-top: 50px;
+}
+
+.thirteen {
+    margin: 0 auto;
+    height: 250px;
+    background-color: rgb(73, 82, 34);
+}
+
+.fourteen {
+    margin: 0 auto;
+    height: 250px;
+    background-color: rgb(73, 82, 34);
+}
+
+.fifteen {
+    margin: 0 auto;
+    height: 250px;
+    background-color: rgb(73, 82, 34);
+}
+
+.sixteen {
+    margin: 0 auto;
+    height: 250px;
+    background-color: rgb(73, 82, 34);
+}
+
+.seventeen {
+    margin: 0 auto;
+    height: 250px;
+    background-color: rgb(73, 82, 34);
+}
+
+.eighteen {
+    margin: 0 auto;
+    height: 250px;
+    background-color: rgb(73, 82, 34);
+}
+
+.subtext-thirteen {
+    margin: 0 auto;
+    height: 80px;
+    text-align: left;
+    background-color: rgb(31, 45, 51);
+}
+
+.subtext-fourteen {
+    margin: 0 auto;
+    height: 80px;
+    text-align: left;
+    background-color: rgb(31, 45, 51);
+}
+
+.subtext-fifteen {
+    margin: 0 auto;
+    height: 80px;
+    text-align: left;
+    background-color: rgb(31, 45, 51);
+}
+
+.subtext-sixteen {
+    margin: 0 auto;
+    height: 80px;
+    text-align: left;
+    background-color: rgb(31, 45, 51);
+}
+
+.subtext-seventeen {
+    margin: 0 auto;
+    height: 80px;
+    text-align: left;
+    background-color: rgb(31, 45, 51);
+}
+
+.subtext-eighteen {
+    margin: 0 auto;
+    height: 80px;
+    text-align: left;
+    background-color: rgb(31, 45, 51);
+}
+                                    
