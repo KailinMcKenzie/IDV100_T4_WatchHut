@@ -14,8 +14,60 @@
 }
 
 .genre-heading {
+    margin: 0 auto;
+    padding-left: 50px;
+    padding-right: 50px;
     height: 100px;
     background-color: grey;
+    display: flex;
+}
+
+.fiction {
+    height: 100px;
+    padding-top: 50px;
+    background-color: rgb(48, 110, 90);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.animation {
+    height: 100px;
+    padding-top: 50px;
+    background-color: rgb(48, 70, 110);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.drama {
+    height: 100px;
+    padding-top: 50px;
+    background-color: rgb(103, 48, 110);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.comedy {
+    height: 100px;
+    padding-top: 50px;
+    background-color: rgb(93, 110, 48);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.horror {
+    height: 100px;
+    padding-top: 50px;
+    background-color: rgb(110, 57, 48);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.romance {
+    height: 100px;
+    padding-top: 50px;
+    background-color: rgb(110, 104, 48);
+    text-align: center;
+    margin: 0 auto;
 }
 
 .row {
@@ -34,6 +86,7 @@
     margin: 0 auto;
     height: 250px;
     background-color: rgb(230, 132, 132);
+    
 }
 
 .two {
