@@ -36,38 +36,123 @@
     />
   </head>
   <body>
-    <div class="container-fluid">
-        <div class="navigation">
-          
-            <div class="col-12 col-md-12 nav">
-              <header>
-                <a href="#" class="logo">Logo</a>
-                <ul>
-                  <li><a href="../index.html">Home</a></li>
-                  <li><a href="./movies.html">Movies</a></li>
-                  <li><a href="./watchLater.html">Watch Later</a></li>
-                  <li><a href="./myLibrary.html">My Library</a></li>
-                </ul>
-                <li><a class="btn" href="./login.html">Sign In</a></li>
-                <li><a class="btn" href="./register.html">Sign Up</a></li>
-              </header>
-            </div>
-         
-        </div>
-      </div>
+    <div class="contianer-fluid">
 
-      <div class="main-container register">
+      <div class="row">
+          <div class="col-8 offset-2 main-container">
+              <div class="col-12 reg-container ">
+                <h1>Register</h1>
+                <h2>Welcome to WatchHut</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+              </div> <!--reg container-->
+  
+              <div class="col-6 left">
+                <h5 class="text-center">Personal Details</h5>
 
-        <div class="col-12 top">
-          <h1>Register</h1>
-          <h2>Welcome to WatchHut</h2>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        </div>
+                <form class="mt-4">
+                  <div class="form-group">
+                    <input type="Username" class="form-control input-1" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Username">
+                    <div class="line"></div>
+                  </div>
+                  <div class="form-group">
+                    <input type="Email" class="form-control input-1" id="exampleInputPassword1" placeholder="Enter Username">
+                    <div class="line"></div>
+                  </div>
+                  <div class="form-group">
+                    <input type="password" class="form-control input-1" id="exampleInputPassword1" placeholder="Password">
+                    <div class="line"></div>
+                  </div>
+                  <div class="form-group">
+                    <input type="Confirm password" class="form-control input-1" id="exampleInputPassword1" placeholder="Confirm Password">
+                    <div class="line"></div>
+                  </div>
+                  <div class="form-group">
+                    <input type="Phone Number" class="form-control input-1" id="exampleInputPassword1" placeholder="Confirm Phone Number">
+                    <div class="line"></div>
+                  </div>
+                  <button type="submit" class="mt-5 btn btn-primary">Sign up</button>
+                </form>
+  
+              </div> <!--left-->
+            
+  
+              <div class="col-6 right">
+                <h5 class="text-center">Banking Details</h5>
 
-        <div class="col-12 bottom">
-          <h5>Personal Details</h5>
-          <h5>Banking Details</h5>
-         </div>
-      </div>
+                <form class="mt-4">
+                  <div class="form-group">
+                    <input type="Country" class="form-control input-1" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Country">
+                    <div class="line"></div>
+                  </div>
+                  <div class="form-group">
+                    <input type="Address" class="form-control input-1" id="exampleInputPassword1" placeholder="Enter Address">
+                    <div class="line"></div>
+                  </div>
+                  <div class="form-group">
+                    <input type="Card Member" class="form-control input-1" id="exampleInputPassword1" placeholder="Enter Card Member">
+                    <div class="line"></div>
+                  </div>
+                  <div class="form-group">
+                    <input type="Card Number" class="form-control input-1" id="exampleInputPassword1" placeholder="Enter Card Number">
+                    <div class="line"></div>
+                  </div>
+                  <button type="submit" class="mt-5 btn btn-primary">Sign up</button>
+                  
+                </form>
+               
+  
+              </div> <!--right-->
+          </div> <!--main container-->
+  
+  
+      </div> <!--row-->
+  
+  
+  
+  </div> 
+  
+
+
+    
+  
+        
+      
   </body>
 </html>
+
+
+
+<!-- <div class="col-12 top">
+  <h1>Register</h1>
+  <h2>Welcome to WatchHut</h2>
+  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+</div>
+
+<div class="col-12 bottom">
+  <div class="col-6 h-1">
+    <h5>Personal Details</h5>
+  </div>
+  
+  <div class="col-6 personal-details form">
+    <form>
+      <input type="text"  id="inputText" placeholder="User Name">
+      <div class="line"></div>
+      <input type="password"  id="inputPassword" placeholder="Password">
+      <div class="line"></div>
+    </form>
+  </div>
+  
+  <div class="col-6 h-2">
+    <h5>Banking Details</h5>
+  </div>
+
+  <div class="col-6 banking-details form">
+    <form>
+      <input type="text"  id="inputText" placeholder="User Name">
+      <div class="line"></div>
+      <input type="password"  id="inputPassword" placeholder="Password">
+      <div class="line"></div>
+    </form>
+  </div>
+
+ </div> -->
