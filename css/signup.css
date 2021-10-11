@@ -1,3 +1,22 @@
+.top{
+    background-color: rgb(197, 192, 192);
+    padding: 10px;
+  
+}
+
+strong{
+    color: black !important;
+}
+
+.line{
+    width: 80%;
+    height: 1px;
+    background-color: black;
+    margin-top: 25px !important;
+    margin-bottom: 15px !important;
+
+}
+
 /* 
 
 
