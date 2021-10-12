@@ -21,18 +21,20 @@
 </head>
 <body>
 
-  <div class="container-fluid">
+  <div class="container-fluid"> <!--Container-fluid begins here-->
 
     <div class="row main-container "> <!--background image here-->
-        <div class="col-12 col-lg-8 offset-lg-2 top ">
+        <div class="col-12 col-lg-8 offset-lg-2 top "> <!--Top is the discription of the login and register page with the heading and a welcome msg here-->
           <h2 class="welcome">Welcome to WatchHut</h2>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 
-        </div>
+        </div> <!--Top ends-->
+  <!--For large devices  -->
+  <!-- Login Form begins -->
         <div class="col-12 col-lg-8 offset-lg-2">
           <h1 class=" d-block d-md-none text-center login">Log In</h1>
         </div>
-        <div class="col-12 col-lg-8 offset-lg-2 bottom">
+        <div class="col-12 col-lg-8 offset-lg-2 bottom"> <!--The Bottom is the part of the login and register forms where the input fields are displayed-->
           <form>
             <h1 class="d-none d-md-block login">Log In</h1>
             <input type="text"  id="inputText" placeholder="User Name">
@@ -49,14 +51,109 @@
           </div>
 
           <div class="col-12 btn-line d-none d-md-block d-lg-none"></div>
-
-          </div>
+<!-- Login form ends -->
+        </div> <!--The bottom ends here-->
         
+    </div> <!--Main container end-->
+
+    <div class="row reg-container mt-2">
+      <div class="col-12 col-lg-8 offset-lg-2 top "> <!--Top is the discription of the login and register page with the heading and a welcome msg here-->
+        <h2 class="welcome">Welcome to WatchHut</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+      </div> <!--Top ends-->
+
+      <div class="col-12 col-lg-8 offset-lg-2">
+        <h1 class=" d-block d-md-none text-center login">Register</h1>
+
+      </div>
+<!-- For sm devices -->
+<!-- Register form two begin -->
+      <div class="col-12 col-lg-8 offset-lg-2 d-block d-md-none bottom-2">
+        <form>
+          <h1 class="d-none d-md-block login">Register</h1>
+          <input type="text"  id="inputText" placeholder="User's Name">
+          <div class="line"></div>
+          <input type="password"  id="inputPassword" placeholder="User's Surname">
+          <div class="line"></div>
+          <input type="password"  id="inputPassword" placeholder="Username ">
+          
+          <!-- <input type="text"  id="inputText" placeholder="User Name"> -->
+          <div class="line"></div>
+          <input type="password"  id="inputPassword" placeholder="Email">
+          <div class="line"></div>
+
+          <input type="text"  id="inputText" placeholder="Password">
+          <div class="line"></div>
+          <input type="password"  id="inputPassword" placeholder="Confirm Password">
+          <div class="line"></div>
+        </form>
+        <!-- Register form one Ends -->        
+        <div class="col-12 button-1">
+          <button type="button" class="btn offset-4 btn-primary log-btn">Log in</button>
+        </div>
+
+        <div class="col-12 button-1">
+          <button type="button" class="btn offset-4 btn-outline-secondary create">Create account</button>
+        </div>
+
+        <div class="col-12 btn-line d-none d-md-block d-lg-none"></div>
+
+        </div>
+        <!-- for md devices -->
+        <div class="col-12 d-none d-md-block">
+          <h1 class="text-center">Register</h1>
+        </div>
+        <div class="col-6   d-none d-md-block bottom">
+
+
+          <form>
+           
+            <input type="text"  id="inputText" placeholder="User's Name">
+            <div class="line"></div>
+            <input type="password"  id="inputPassword" placeholder="User's Surname">
+            <div class="line"></div>
+            <input type="password"  id="inputPassword" placeholder="Username">
+            
+           
+          </form>
+
+  
+          </div>
+
+          <div class="col-6   d-none d-md-block bottom-2">
+             
+          <form>
+            <input type="text"  id="inputText" placeholder="Email">
+            <div class="line"></div>
+            <input type="password"  id="inputPassword" placeholder="Password">
+            <div class="line"></div>
+            <input type="password"  id="inputPassword" placeholder="Confirm Password">
+            
+            <!-- <input type="text"  id="inputText" placeholder="User Name"> -->
+            
+          </form>
+  
+  
+          </div>
+
+          <div class="col-12 button-1">
+            <button type="button" class="btn offset-4 btn-primary sign-btn">Sign up!</button>
+          </div>
+  
+          <div class="col-12 button-2">
+            <button type="button" class="btn offset-4 btn-outline-secondary Sign">Sign In</button>
+          </div>
+  
+          <div class="col-12 btn-line d-none d-md-block d-lg-none"></div>
+
     </div>
 
+    
 
 
-  </div> <!--container fluid end-->
+
+  </div> <!--container-fluid end-->
   
 
 

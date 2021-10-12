@@ -27,12 +27,14 @@ input{
     color: black;
 }
 
-.create{
+/* Primary button */
+
+.create, .Sign{
     color: white !important;
     border: none !important;
 }
 
-.create:hover{
+.create, .Sign:hover{
     background-color: transparent !important;
 }
 
@@ -45,6 +47,8 @@ input{
     /* border: 1px dashed rgb(197, 192, 192); */
 
 }
+
+
 
 .line{
     width: 80%;
@@ -61,6 +65,14 @@ form{
     margin-top: 20px; 
 
 }
+.button-2{
+    background-color: cadetblue;
+    width: 30% !important;
+    text-align: center !important;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
 
 .btn-primary{
     width: 30% !important;
@@ -69,10 +81,12 @@ form{
     border-radius: 12px !important;
 }
 
-.log-btn{
+.log-btn, .sign-btn{
     position: relative;
     z-index: 1;
 }
+
+/* Secondary button under primary */
 
 @media  (max-width: 576px){
 
@@ -96,10 +110,121 @@ form{
   
 }
 
-.create{
+.create,.Sign{
     color: black !important;
     border: none !important;
     margin-left: 41% !important;
+}
+
+.top{
+    background-color: rgb(197, 192, 192);
+    padding: 10px;
+  
+}
+
+strong{
+    color: black !important;
+}
+
+.line{
+    width: 80%;
+    height: 1px;
+    background-color: black;
+    margin-top: 25px !important;
+    margin-bottom: 15px !important;
+
+}
+
+.reg-container{
+    background-color: rgb(243, 241, 241);
+    height: 50vh;
+    margin-top: 150px;
+    padding: 0 !important;
+}
+
+.form{
+
+    height: 400px;
+}
+
+.left{
+    height: 400px;
+    float: left;
+    border-right: solid black 1px;
+
+}
+
+.right{
+    
+    height: 400px;
+    float: left;
+    
+}
+
+form{
+    margin-left: 30% !important;
+}
+h1{
+    text-align: center;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+h2{
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding-bottom: 20px;
+    color: black;
+}
+
+h5{
+    color: black;
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 160px;
+    margin-left: 22%;
+}
+
+p{
+    color: black;
+    font-size: x-small;
+}
+
+.input-1{
+    border: none 0 !important;
+    width: 60% !important;
+    height: 50px;
+    background-color: none !important;
+
+}
+
+input{
+    border: none 0 !important;
+    background-color: none !important;
+}
+
+.line{
+    width: 200px;
+    height: 1px;
+    background-color: #2b2b2b;
+}
+
+.button{
+    padding-top: 20px !important;
+
+}
+
+.banking{
+    border-left: 1px solid black !important;
+}
+
+
+input{
+    border: none !important;
 }
 
     
@@ -116,15 +241,17 @@ form{
 
     .main-container{
         box-shadow: 9px 8px 26px -2px rgba(0,0,0,0.36);
--webkit-box-shadow: 9px 8px 26px -2px rgba(0,0,0,0.36);
--moz-box-shadow: 9px 8px 26px -2px rgba(0,0,0,0.36);
+        -webkit-box-shadow: 9px 8px 26px -2px rgba(0,0,0,0.36);
+        -moz-box-shadow: 9px 8px 26px -2px rgba(0,0,0,0.36);
     }
 
-    .create{
+    .create,.Sign{
         color: black !important;
         border: none !important;
         margin-left: 41% !important;
     }
+
+    
  }
 
 
