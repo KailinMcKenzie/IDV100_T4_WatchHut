@@ -29,6 +29,11 @@ input{
 
 /* Primary button */
 
+.log-btn{
+    width: 20% !important;
+    margin-left: 5% !important;
+}
+
 .create, .Sign{
     color: white !important;
     border: none !important;
@@ -63,15 +68,16 @@ form{
 
 .button-1{
     margin-top: 20px; 
+    
 
 }
 .button-2{
     background-color: cadetblue;
-    width: 30% !important;
+    width: 20% !important;
     text-align: center !important;
     border-radius: 10px;
-    margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 20px !important;
+    margin-left: 3% !important;
 }
 
 .btn-primary{
@@ -87,6 +93,16 @@ form{
 }
 
 /* Secondary button under primary */
+.sign-btn{
+    width: 20% !important;
+    margin-left: 2% !important;
+}
+
+.sign{
+    margin-left: 2% !important;
+    border: none !important;
+    color: white !important;
+}
 
 @media  (max-width: 576px){
 
