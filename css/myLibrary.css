@@ -25,49 +25,73 @@
 .fiction {
     height: 100px;
     padding-top: 50px;
-    background-color: rgb(48, 110, 90);
+   
     text-align: center;
     margin: 0 auto;
+}
+
+.fiction:hover {
+    cursor: pointer;
 }
 
 .animation {
     height: 100px;
     padding-top: 50px;
-    background-color: rgb(48, 70, 110);
+    
     text-align: center;
     margin: 0 auto;
+}
+
+.animation:hover {
+    cursor: pointer;
 }
 
 .drama {
     height: 100px;
     padding-top: 50px;
-    background-color: rgb(103, 48, 110);
+   
     text-align: center;
     margin: 0 auto;
+}
+
+.drama:hover {
+    cursor: pointer;
 }
 
 .comedy {
     height: 100px;
     padding-top: 50px;
-    background-color: rgb(93, 110, 48);
+    
     text-align: center;
     margin: 0 auto;
+}
+
+.comedy:hover {
+    cursor: pointer;
 }
 
 .horror {
     height: 100px;
     padding-top: 50px;
-    background-color: rgb(110, 57, 48);
+    
     text-align: center;
     margin: 0 auto;
+}
+
+.horror:hover {
+    cursor: pointer;
 }
 
 .romance {
     height: 100px;
     padding-top: 50px;
-    background-color: rgb(110, 104, 48);
+ 
     text-align: center;
     margin: 0 auto;
+}
+
+.romance:hover {
+    cursor: pointer;
 }
 
 .row {
@@ -86,7 +110,6 @@
     margin: 0 auto;
     height: 250px;
     background-color: rgb(230, 132, 132);
-    
 }
 
 .two {
