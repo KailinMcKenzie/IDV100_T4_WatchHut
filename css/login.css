@@ -1,12 +1,12 @@
 .top{
-    background-color: rgb(197, 192, 192);
+    background-color: #aac9ce;
     padding: 10px;
   
 }
 
 .bottom{
     padding-top: 20px;
-    background-color: rgb(197, 192, 192);
+    background-color: #dadada;
 }
 
 .welcome{
@@ -29,6 +29,11 @@ input{
 
 /* Primary button */
 
+.log-btn{
+    width: 20% !important;
+    margin-left: 5% !important;
+}
+
 .create, .Sign{
     color: white !important;
     border: none !important;
@@ -42,8 +47,7 @@ input{
     height: 2px;
     position: relative;
     top: -75px;
-    
-    background-color: rgb(197, 192, 192);
+    background-color: #b6b4c2;
     /* border: 1px dashed rgb(197, 192, 192); */
 
 }
@@ -53,7 +57,7 @@ input{
 .line{
     width: 80%;
     height: 1px;
-    background-color: black;
+    background-color: #aac9ce;
 
 }
 
@@ -63,20 +67,21 @@ form{
 
 .button-1{
     margin-top: 20px; 
+    
 
 }
 .button-2{
-    background-color: cadetblue;
-    width: 30% !important;
+    background-color: #c0bbc8;
+    width: 20% !important;
     text-align: center !important;
     border-radius: 10px;
-    margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 20px !important;
+    margin-left: 3% !important;
 }
 
 .btn-primary{
-    width: 30% !important;
-    background-color: darkgrey !important;
+    width: 20% !important;
+    background-color: #aac9ce !important;
     border: none !important;
     border-radius: 12px !important;
 }
@@ -87,6 +92,16 @@ form{
 }
 
 /* Secondary button under primary */
+.sign-btn{
+    width: 20% !important;
+    margin-left: 2% !important;
+}
+
+.sign{
+    margin-left: 5% !important;
+    border: none !important;
+    color: white !important;
+}
 
 @media  (max-width: 576px){
 
