@@ -1,12 +1,12 @@
 .top{
-    background-color: rgb(197, 192, 192);
+    background-color: #aac9ce;
     padding: 10px;
   
 }
 
 .bottom{
     padding-top: 20px;
-    background-color: rgb(197, 192, 192);
+    background-color: #dadada;
 }
 
 .welcome{
@@ -47,8 +47,7 @@ input{
     height: 2px;
     position: relative;
     top: -75px;
-    
-    background-color: rgb(197, 192, 192);
+    background-color: #b6b4c2;
     /* border: 1px dashed rgb(197, 192, 192); */
 
 }
@@ -58,7 +57,7 @@ input{
 .line{
     width: 80%;
     height: 1px;
-    background-color: black;
+    background-color: #aac9ce;
 
 }
 
@@ -72,7 +71,7 @@ form{
 
 }
 .button-2{
-    background-color: cadetblue;
+    background-color: #c0bbc8;
     width: 20% !important;
     text-align: center !important;
     border-radius: 10px;
@@ -81,8 +80,8 @@ form{
 }
 
 .btn-primary{
-    width: 30% !important;
-    background-color: darkgrey !important;
+    width: 20% !important;
+    background-color: #aac9ce !important;
     border: none !important;
     border-radius: 12px !important;
 }
@@ -99,7 +98,7 @@ form{
 }
 
 .sign{
-    margin-left: 2% !important;
+    margin-left: 5% !important;
     border: none !important;
     color: white !important;
 }
