@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #000;
+    color: #fff;
     font-family: "Poppins", sans-serif;
   }
 
@@ -11,7 +11,7 @@
     position: absolute;
     width: 100%;
     display: flex;
-    padding: 3rem 10rem;
+    
     justify-content: space-between;
   }
   
@@ -45,7 +45,7 @@
     position: relative;
     margin: 0 15px;
     text-decoration: none;
-    color: #000;
+    color: #fff;
     letter-spacing: 2px;
     font-weight: 500px;
     transition: 0.6s;
@@ -78,9 +78,44 @@ section{
   flex-direction: column;
 }
 
+.slider-navigation{
+  z-index: 888;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(80);
+  margin-bottom: 12px 20px;
+}
+
+.slider-navigation .nav-btn{
+  width: 12px;
+  height: 12px;
+  background: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0px 0px 2px rgba(225,225,225,0.5);
+  transition: 0.3s ease;
+}
+
+.slider-navigation .nav-btn.active {
+  background: #000000;
+
+}
+
+.slider-navigation .nav-btn:not(:last-child){
+  margin-right: 20px;
+}
+
+.slider-navigation .nav-btn:hover{
+  transform: scale(1.2);
+}
+
+
+
 .home .content{
   z-index: 888;
-  color: #000;
+  color: #fff;
   width: 70%;
   margin-top: 50px;
 }
@@ -139,6 +174,19 @@ section{
   transform: scale(1.3);
 }
 
+.home video{
+  z-index: 000;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+
+}
+
+/*added resposive nav*/
 @media (max-width: 1040px) {
     header{
     padding: 12px 20px;
@@ -149,13 +197,36 @@ section{
   .home .media-icons {
     right: 15px;
   }
-  .nav {
-    display: none; 
-  }
-
-  
+ 
 
 }
+
+/*content*/
+.Container {
+  margin: 2% 2% 0 3%;
+}
+.Movies img {
+  margin-right: 1%;
+  margin-bottom: 10%;
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: -4px 4px 5px 0 #000;
+  transition: 0.8s;
+}
+
+.Movies img:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.Container h2 {
+  font-family: "wire one";
+  font-size: 4em;
+  margin-bottom: 2%;
+  color: #000000;
+}
+
 
 
 
