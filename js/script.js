@@ -6,7 +6,15 @@ $(function() {
         console.log(result);
 
         for(i=0; i < result.length; i++ ){
-            console.log(result[i].name);
+
+            $(".crew_root").append(
+
+
+                
+            )
+
+            
+
 
 
             
