@@ -23,7 +23,7 @@
 
   <div class="container-fluid"> <!--Container-fluid begins here-->
 
-    <div class="row main-container "> <!--background image here-->
+    <div class="row main-container ">
         <div class="col-12 col-lg-8 offset-lg-2 top "> <!--Top is the discription of the login and register page with the heading and a welcome msg here-->
           <h2 class="welcome">Welcome back to WatchHut</h2>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
@@ -37,10 +37,10 @@
         <div class="col-12 col-lg-8 offset-lg-2 bottom"> <!--The Bottom is the part of the login and register forms where the input fields are displayed-->
           <form>
             <h1 class="d-none d-md-block login">Log In</h1>
-            <input type="text"  id="inputText" placeholder="User Name">
-            <div class="line"></div>
-            <input type="password"  id="inputPassword" placeholder="Password">
-            <div class="line"></div>
+            <input type="text"  id="inputText" placeholder="User Name" class="required">
+            <div class="line indicate"></div>
+            <input type="password"  id="inputPassword"  class="required" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Your password must include a digit, lower cas and upper case text and can be a min of 8 characters." required>
+            <div class="line indicate"></div>
           </form>
           <div class="col-12 button-1">
             <button type="button" class="btn offset-4 btn-primary log-btn">Log in</button>
@@ -51,8 +51,8 @@
           </div>
 
           <div class="col-12 btn-line d-none d-md-block d-lg-none"></div>
-<!-- Login form ends -->
-        </div> <!--The bottom ends here-->
+  
+        </div> <!--The bottom ends here--><!-- Login form ends -->
         
     </div> <!--Main container end-->
 
@@ -67,31 +67,31 @@
         <h1 class=" d-block d-md-none text-center login">Register</h1>
 
       </div>
-<!-- For sm devices -->
-<!-- Register form two begin -->
+     <!-- For sm devices -->
+     <!-- Register form two begin -->
       <div class="col-12 col-lg-8 offset-lg-2 d-block d-md-none bottom-2">
         <form>
           <h1 class="d-none d-md-block login">Register</h1>
           <input type="text"  id="inputText" placeholder="User's Name">
           <div class="line"></div>
-          <input type="password"  id="inputPassword" placeholder="User's Surname">
+          <input type="password"  id="inputText" placeholder="User's Surname">
           <div class="line"></div>
-          <input type="password"  id="inputPassword" placeholder="Username ">
+          <input type="password"  id="inputText" placeholder="Username ">
           
           <!-- <input type="text"  id="inputText" placeholder="User Name"> -->
           <div class="line"></div>
-          <input type="password"  id="inputPassword" placeholder="Email">
+          <input type="password"  id="inputText" placeholder="Email">
           <div class="line"></div>
 
-          <input type="text"  id="inputText" placeholder="Password">
+          <input type="text"  id="inputPassword" placeholder="Password">
           <div class="line"></div>
           <input type="password"  id="inputPassword" placeholder="Confirm Password">
           <div class="line"></div>
         </form>
         <!-- Register form one Ends -->        
-        <!-- <div class="col-12 button-1">
+        <div class="col-12 button-1">
           <button type="button" class="btn offset-4 btn-primary log-btn">Log in</button>
-        </div> -->
+        </div> 
 
         <div class="col-12 button-1">
           <button type="button" class="btn offset-4 btn-outline-secondary create">Create account</button>
@@ -159,6 +159,8 @@
 
       <!--jquery-->
       <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+      <script src="../js/script.js"></script>
+      <script src="../js/login.js"></script>
     <!--javaScript-->
     <script src="js\script.js"></script>
         <!--bootstrap-->
