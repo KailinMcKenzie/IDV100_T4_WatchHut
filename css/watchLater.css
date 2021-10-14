@@ -16,25 +16,28 @@
     margin: 0 auto;
     height: 250px;
     background-color: rgb(230, 132, 132);
-    background-image: cover;
+    margin-top: 50px;
 }
 
 .two {
     margin: 0 auto;
     height: 250px;
     background-color: rgb(230, 132, 132);
+    margin-top: 50px;
 }
 
 .three {
     margin: 0 auto;
     height: 250px;
     background-color: rgb(230, 132, 132);
+    margin-top: 50px;
 }
 
 .four {
     margin: 0 auto;
     height: 250px;
     background-color: rgb(153, 23, 23);
+    margin-top: 50px;
 }
 
 .text-row {
