@@ -22,7 +22,6 @@
 <body>
 
   <div class="container-fluid"> <!--Container-fluid begins here-->
-    <div class="function"></div>
 
     <div class="row main-container ">
         <div class="col-12 col-lg-8 offset-lg-2 top "> <!--Top is the discription of the login and register page with the heading and a welcome msg here-->
@@ -36,17 +35,16 @@
           <h1 class=" d-block d-md-none text-center login">Log In</h1>
         </div>
         <div class="col-12 col-lg-8 offset-lg-2 bottom"> <!--The Bottom is the part of the login and register forms where the input fields are displayed-->
-          <form autocomplete="on">
+          <form>
             <h1 class="d-none d-md-block login">Log In</h1>
-            <input type="text"  id="inputText" placeholder="User Name" required>
-            <div class="line"></div>
-            <input type="password"  id="inputPassword" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Your password must include a digit, lower cas and upper case text and can be a min of 8 characters." required>
-            <div class="line"></div>
-            <div class="col-12 button-1">
-              <button type="button" class="btn offset-4 btn-primary log-btn">Log in</button>
-            </div>
+            <input type="text"  id="inputText" placeholder="User Name" class="required">
+            <div class="line indicate"></div>
+            <input type="password"  id="inputPassword"  class="required" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Your password must include a digit, lower cas and upper case text and can be a min of 8 characters." required>
+            <div class="line indicate"></div>
           </form>
-         
+          <div class="col-12 button-1">
+            <button type="button" class="btn offset-4 btn-primary log-btn">Log in</button>
+          </div>
 
           <div class="col-12 button-1">
             <button type="button" class="btn offset-4 btn-outline-secondary create">Create account</button>
@@ -78,7 +76,7 @@
           <div class="line"></div>
           <input type="password"  id="inputText" placeholder="User's Surname">
           <div class="line"></div>
-          <input type="password"  id="inputText" placeholder="Username">
+          <input type="password"  id="inputText" placeholder="Username ">
           
           <!-- <input type="text"  id="inputText" placeholder="User Name"> -->
           <div class="line"></div>
@@ -91,9 +89,9 @@
           <div class="line"></div>
         </form>
         <!-- Register form one Ends -->        
-        <!-- <div class="col-12 button-1">
+        <div class="col-12 button-1">
           <button type="button" class="btn offset-4 btn-primary log-btn">Log in</button>
-        </div> -->
+        </div> 
 
         <div class="col-12 button-1">
           <button type="button" class="btn offset-4 btn-outline-secondary create">Create account</button>
