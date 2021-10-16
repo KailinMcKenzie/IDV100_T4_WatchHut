@@ -45,7 +45,7 @@
     position: relative;
     margin: 0 15px;
     text-decoration: none;
-    color: #fff;
+    color: #000000;
     letter-spacing: 2px;
     font-weight: 500px;
     transition: 0.6s;
@@ -226,6 +226,40 @@ section{
   margin-bottom: 2%;
   color: #000000;
 }
+
+/*content information*/
+
+
+
+/* min 00:00 / Genre / pg */
+
+
+
+/*Footer*/
+#footer {
+  background-color: #b6b4c2;
+  padding: 2% 15%;
+  color: #fff;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 20px 10px;
+  cursor: pointer;
+}
+
+.social-icon:hover {
+  color: #aac9ce;
+}
+
+.footername {
+  color: coral;
+}
+.footername:hover {
+  text-decoration: none;
+  color: crimson;
+}
+
 
 
 
