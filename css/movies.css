@@ -145,6 +145,24 @@
     max-width: 32px;
 }
 
+.movieInfo{
+    position: absolute;
+width: 1045px;
+height: 177px;
+left: 496px;
+top: 578px;
+
+background: #525252;}
+
+.movieImg{
+    position: absolute;
+width: 267px;
+height: 365px;
+left: 229px;
+top: 464px;
+
+background: #D0D0D0;}
+
 @media (max-width: 991px){
     header{
         padding: 20px 50px;
@@ -174,3 +192,54 @@
         outline: none;
     }
 }
+
+/*Footer*/
+#footer {
+    background-color: #b6b4c2;
+    padding: 2% 15%;
+    color: #fff;
+    text-align: center;
+    }
+    
+    .social-icon {
+    margin: 20px 10px;
+    cursor: pointer;
+    }
+    
+    .social-icon:hover {
+    color: #aac9ce;
+    }
+    
+    .footername {
+    color: coral;
+    }
+    .footername:hover {
+    text-decoration: none;
+    color: crimson;
+    }
+
+    /*content*/
+.Container {
+    margin: 2% 2% 0 3%;
+    }
+    .Movies img {
+    margin-right: 1%;
+    margin-bottom: 10%;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: -4px 4px 5px 0 #000;
+    transition: 0.8s;
+    }
+    
+    .Movies img:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    }
+    
+    .Container h2 {
+    font-family: "wire one";
+    font-size: 4em;
+    margin-bottom: 2%;
+    color: #000000;
+    }
