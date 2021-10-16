@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  
+  .nav {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    
+    justify-content: space-between;
+  }
+  
+  header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 40px 100px;
+    z-index: 100000;
+  }
+  
+  header ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  header ul li {
+    position: relative;
+    list-style: none;
+    text-align: center;
+  }
+  
+  header ul li a {
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.6s;
+    text-align: center;
+  }
+  
+  header.sticky {
+    padding: 5px 100px;
+    background: #000;
+  }
+  
+  header.sticky ul li a{
+    color: #000;
+    text-align: center;
+  }
+
+  .banner{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 100px;
+    background: url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.banner .content{
+    max-width: 550px;
+}
+.banner .content h2{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
+    color: #000;
+}
+.banner .content h2 span{
+    font-weight: 800;
+}
+.banner .content p{
+    
+    font-weight: 300;
+    font-size: 1.2em;
+    letter-spacing: 0.02em;
+    line-height: 1.5em;
+    color: #000;
+    margin: 15px 0 35px;
+}
+.play{
+    position: relative;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #000;
+    border:#000;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+}
+.play img{
+    margin-right: 10px;
+    max-width: 50px;
+}
+.trailer{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 10000;
+    background: rgba(0, 0, 0, 0.95);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+}
+.trailer.active{
+    visibility: visible;
+    opacity: 1;
+}
+.trailer video{
+    max-width: 900px;
+    outline: none;
+}
+.trailer .close{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    filter: invert(1);
+    max-width: 32px;
+}
+
+.movieInfo{
+    position: absolute;
+width: 1045px;
+height: 177px;
+left: 496px;
+top: 578px;
+
+background: #525252;}
+
+.movieImg{
+    position: absolute;
+width: 267px;
+height: 365px;
+left: 229px;
+top: 464px;
+
+background: #D0D0D0;}
+
+@media (max-width: 991px){
+    header{
+        padding: 20px 50px;
+    }
+    header{
+        padding: 20px 50px;
+    }
+    header .logo{
+        max-width: 80px;
+    }
+    header .toggle{
+        max-width: 40px;
+    }
+    .banner{
+        padding: 100px 50px;
+    }
+    .banner .content h2{
+        font-weight: 400;
+        font-size: 2em;
+        letter-spacing: 0.05em; 
+    }
+    .banner .content p{
+        font-size: 1em;
+    }
+    .trailer video{
+        max-width: 90%;
+        outline: none;
+    }
+}
+
+/*Footer*/
+#footer {
+    background-color: #b6b4c2;
+    padding: 2% 15%;
+    color: #fff;
+    text-align: center;
+    }
+    
+    .social-icon {
+    margin: 20px 10px;
+    cursor: pointer;
+    }
+    
+    .social-icon:hover {
+    color: #aac9ce;
+    }
+    
+    .footername {
+    color: coral;
+    }
+    .footername:hover {
+    text-decoration: none;
+    color: crimson;
+    }
+
+    /*content*/
+.Container {
+    margin: 2% 2% 0 3%;
+    }
+    .Movies img {
+    margin-right: 1%;
+    margin-bottom: 10%;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: -4px 4px 5px 0 #000;
+    transition: 0.8s;
+    }
+    
+    .Movies img:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    }
+    
+    .Container h2 {
+    font-family: "wire one";
+    font-size: 4em;
+    margin-bottom: 2%;
+    color: #000000;
+    }
