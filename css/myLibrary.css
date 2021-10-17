@@ -105,14 +105,23 @@
     width: 100% !important;
     height: 350px;
     margin-bottom: 15px;
-    background-color: rgb(230, 132, 132);
+    border-radius: 10px;
 }                
 
 .image {
     height: 200px;
     width: 100%;
     background-color: aquamarine;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: -4px 4px 5px 0 #000;
+    transition: 0.8s;
 }
+
+.image:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    }
 
 li {
     display: inline-block;
@@ -129,7 +138,9 @@ li {
     height: 100px;
     width: 100%;
     overflow: auto;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 600px;
+    color: black;
+    margin-top: 10px;
 }
 
