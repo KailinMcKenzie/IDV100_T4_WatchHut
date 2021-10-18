@@ -11,7 +11,6 @@
   position: absolute;
   width: 100%;
   display: flex;
-  
   justify-content: space-between;
 }
 
@@ -70,118 +69,117 @@ padding: 100px 200px;
 }
 
 .home{
-position: relative;
-width: 100%;
-min-height:100vh;
-display: flex;
-justify-content: center;
-flex-direction: column;
+  position: relative;
+  width: 100%;
+  min-height:100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .slider-navigation{
-z-index: 888;
-position: relative;
-display: flex;
-justify-content: center;
-align-items: center;
-transform: translateY(80);
-margin-bottom: 12px 20px;
+  z-index: 888;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(80);
+  margin-bottom: 12px 20px;
 }
 
 .slider-navigation .nav-btn{
-width: 12px;
-height: 12px;
-background: #fff;
-border-radius: 50%;
-cursor: pointer;
-box-shadow: 0px 0px 2px rgba(225,225,225,0.5);
-transition: 0.3s ease;
+  width: 12px;
+  height: 12px;
+  background: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0px 0px 2px rgba(225,225,225,0.5);
+  transition: 0.3s ease;
 }
 
 .slider-navigation .nav-btn.active {
-background: #000000;
-
+  background: #000000;
 }
 
 .slider-navigation .nav-btn:not(:last-child){
-margin-right: 20px;
+  margin-right: 20px;
 }
 
 .slider-navigation .nav-btn:hover{
-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 
 
 .home .content{
-z-index: 888;
-color: #fff;
-width: 70%;
-margin-top: 50px;
+  z-index: 888;
+  color: #fff;
+  width: 70%;
+  margin-top: 50px;
 }
 
 .home .content h1{
-font-family: 'wire one';
-font-size: 4em;
-font-weight: 900;
-text-transform: uppercase;
-letter-spacing: 5px;
-line-height: 75px;
-margin-bottom: 40px;
+  font-family: 'wire one';
+  font-size: 4em;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  line-height: 75px;
+  margin-bottom: 40px;
 
 }
 
 .home .content h1 span{
-font-size: 1.2em;
-font-weight: 600;
+  font-size: 1.2em;
+  font-weight: 600;
 
 }
 
 .home .content p{
-font-family: 'Montserrat';
-margin-bottom: 65px;
+  font-family: 'Montserrat';
+  margin-bottom: 65px;
 
 }
 
 .home .content a {
-font-family: 'montserrat';
-background: #aac9ce;
-padding: 15px 35px;
-color: #000;
-border-radius: 5px;
+  font-family: 'montserrat';
+  background: #aac9ce;
+  padding: 15px 35px;
+  color: #000;
+  border-radius: 5px;
 
 }
 
 .home .media-icons {
-z-index: 888;
-position: absolute;
-right: 30px;
-display: flex;
-flex-direction: column;
-transition: 0.5s ease;
+  z-index: 888;
+  position: absolute;
+  right: 30px;
+  display: flex;
+  flex-direction: column;
+  transition: 0.5s ease;
 }
 
 .home .media-icons a{
-color: #b6b4c2;
-font-size: 1.6;
+  color: #b6b4c2;
+  font-size: 1.6;
 }
 
 .home .media-icons a:not(:last-child){
-margin-bottom: 20px
+  margin-bottom: 20px
 }
 
 .home .media-icons a:hover {
-transform: scale(1.3);
+  transform: scale(1.3);
 }
 
 .home video{
-z-index: 000;
-position: absolute;
-top: 0;
-right: 0;
-width: 100%;
-height: 100%;
-object-fit: cover;
+  z-index: 000;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 
 
 }
@@ -203,16 +201,16 @@ section {
 
 /*content*/
 .Container {
-margin: 2% 2% 0 3%;
+  margin: 2% 2% 0 3%;
 }
 .Movies img {
-margin-right: 1%;
-margin-bottom: 10%;
-width: 100%;
-border-radius: 10px;
-cursor: pointer;
-box-shadow: -4px 4px 5px 0 #000;
-transition: 0.8s;
+  margin-right: 1%;
+  margin-bottom: 10%;
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: -4px 4px 5px 0 #000;
+  transition: 0.8s;
 }
 
 .Movies img:hover {
@@ -221,43 +219,36 @@ box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 
 .Container h2 {
-font-family: "wire one";
-font-size: 4em;
-margin-bottom: 2%;
-color: #000000;
+  font-family: "wire one";
+  font-size: 4em;
+  margin-bottom: 2%;
+  color: #000000;
 }
-
-/*content information*/
-
-
-
-/* min 00:00 / Genre / pg */
-
 
 
 /*Footer*/
 #footer {
-background-color: #b6b4c2;
-padding: 2% 15%;
-color: #fff;
-text-align: center;
+  background-color: #b6b4c2;
+  padding: 2% 15%;
+  color: #fff;
+  text-align: center;
 }
 
 .social-icon {
-margin: 20px 10px;
-cursor: pointer;
+  margin: 20px 10px;
+  cursor: pointer;
 }
 
 .social-icon:hover {
-color: #aac9ce;
+  color: #aac9ce;
 }
 
 .footername {
-color: coral;
+  color: coral;
 }
 .footername:hover {
-text-decoration: none;
-color: crimson;
+  text-decoration: none;
+  color: crimson;
 }
 
 .content {
@@ -273,8 +264,6 @@ color: crimson;
   width: 80%;
   height: 100%;
   margin-left: 40px;
-
-  
   background-color: aquamarine;
   border-radius: 10px;
   cursor: pointer;
@@ -313,11 +302,6 @@ li {
 }
 
 .title h1 {
-  text-decoration: underline;
-
-
-
-
   padding-top: 50px;
   padding-bottom: 100px;
   padding-left: 50px;
@@ -325,15 +309,14 @@ li {
   height: 69px;
   left: 80px;
   top: 588px;
-  
   font-family: Wire One;
   font-style: normal;
   font-weight: 500;
   font-size: 55px;
   line-height: 60px;
-  
   color: #000000;
 }
+
 
 
 

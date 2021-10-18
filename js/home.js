@@ -33,7 +33,7 @@ $(function() {
                   <li class='Pg'>Adult</li>\
                 </ul>\
               </div>\
-            </div><!-- one -->\
+            </div><!--titleCards-->\
           </div>"
             
 
