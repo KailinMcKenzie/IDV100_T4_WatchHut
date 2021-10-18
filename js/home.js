@@ -9,6 +9,10 @@ $(function() {
 
         
 
+        $('.content h1').html('Welcome to Watchut, ' +  sessionStorage.getItem('username'));
+
+        
+
 
         for(var i= 0; i < Movies.results.length; i++){
 
