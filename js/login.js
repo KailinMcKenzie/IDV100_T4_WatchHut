@@ -8,17 +8,17 @@
       $(".reg-container").slideDown();
   });
 // error function
- $(".log-btn").click(function(){
+//  $(".log-btn").click(function(){
 
-    if($(".required").val().length === 0){
-        alert("please fill in required fields")
-        $(".indicate").css("backgroundColor", "red" ); 
-    }
- });
+//     if($(".required").val().length === 0){
+//         alert("please fill in required fields")
+//         $(".indicate").css("backgroundColor", "red" ); 
+//     }
+//  });
 // error function
 
 //Authentication function for login page
- $(".log-btn").on("click", function(){
+ $(".log-btnn").on("click", function(){
 
     var username = $(".username").val();
     var password = $(".password").val();
@@ -61,16 +61,16 @@
  
  $('.sign').click(function(){
     // alert("click")
-    var firstName= $('#name1').val();
-    var surname = $('#surname1').val();
-    var username = $('#newUser1').val();
+    // var firstName= $('#name1').val();
+    // var surname = $('#surname1').val();
+    // var username = $('#newUser1').val();
 
-    var firstName2= $('#name2').val();
-    var surname2 = $('#surname2').val();
-    var username2 = $('#newUser2').val();
+    // var firstName2= $('#name2').val();
+    // var surname2 = $('#surname2').val();
+    // var username2 = $('#newUser2').val();
      
-    var pass1 = $("#pass1").val();
-    var pass2 = $("#confirm").val();
+    // var pass1 = $("#pass1").val();
+    // var pass2 = $("#confirm").val();
 
 
     if(pass1 === pass2 ){
@@ -128,9 +128,9 @@
      window.location.href = "../index.html";
 
     }else{
+
         alert("Your passwords do not match")
 
-    
     }
 
  });
@@ -144,3 +144,7 @@
 // 		"password": "<<L5EVys4LFe[9}C", 
 //         "account": "active"
 //     },
+
+// "username": "Michael Scott",
+//         "password": "password", 
+//         "account": "suspended"

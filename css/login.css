@@ -24,7 +24,17 @@ input{
     color: black !important;
 }
 
-
+.btnn{
+    width: 80%;
+    background-color: #aac9ce;
+    color: #f7f7f7;
+    margin:  0 auto;
+    margin-top: 20px;
+    border-radius: 40px;
+    font-size: 15px;
+    font-weight: 300 !important;
+    transition: all ease 200ms;
+}
 .login{
     margin-top: 75px !important;
     margin-bottom: 75px !important;
@@ -33,9 +43,13 @@ input{
 
 /* Primary button */
 
-.log-btn{
+.log-btnn{
     width: 20% !important;
-    margin-left: 5% !important;
+    height: 20% !important;
+    background-color: #aac9ce !important;
+    border: none !important;
+    border-radius: 12px !important;
+    margin-top: 10px;
 }
 
 .create, .Sign{
@@ -89,7 +103,7 @@ form{
     border-radius: 12px !important;
 }
 
-.log-btn, .sign-btn{
+.log-btnn, .sign-btn{
     position: relative;
     z-index: 1;
 }
@@ -106,18 +120,7 @@ form{
     color: white !important;
 }
 
-@media  (max-width: 576px){
 
-    
-
-}
-
-
-
-@media (min-width: 577px) and (max-width: 767.98px){
-  
-
-}
 
 /* @media for md */
 

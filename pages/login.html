@@ -37,20 +37,21 @@
         <div class="col-12 col-lg-8 offset-lg-2 bottom"> <!--The Bottom is the part of the login and register forms where the input fields are displayed-->
           <form>
             <h1 class="d-none d-md-block login">Log In</h1>
-            <input type="text"  id="inputText" placeholder="User Name" class="required username">
+            <input type="text"  id="inputText" placeholder="User Name" class="required username" required>
             <div class="line indicate"></div>
             <input type="password"  id="inputPassword"  class="required password" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Your password must include a digit, lower cas and upper case text and can be a min of 8 characters." required>
             <div class="line indicate"></div>
-          </form>
-          <div class="col-12 button-1">
-            <button type="button" class="btn offset-4 btn-primary log-btn">Log in</button>
-          </div>
+          
+            <input type="submit" class="log-btnn" value="Log in">
 
           <div class="col-12 button-1">
             <button type="button" class="btn offset-4 btn-outline-secondary create">Create account</button>
           </div>
 
-          <div class="col-12 btn-line d-none d-md-block d-lg-none"></div>
+          
+         </form>
+         <div class="col-12 btn-line d-none d-md-block d-lg-none"></div>
+          
   
         </div> <!--The bottom ends here--><!-- Login form ends -->
         
@@ -87,11 +88,11 @@
           <div class="line"></div>
           <input type="password"  class="confirm" id="confirm2" placeholder="Confirm Password">
           <div class="line"></div>
+
+          
         </form>
         <!-- Register form one Ends -->        
-        <div class="col-12 button-1">
-          <button type="button" class="btn offset-4 btn-primary log-btn">Log in</button>
-        </div> 
+        
 
         <div class="col-12 button-1">
           <button type="button" class="btn offset-4 btn-outline-secondary create">Create account</button>
@@ -109,11 +110,11 @@
 
           <form>
            
-            <input type="text"  class="name" id="name1" placeholder="User's Name">
+            <input type="text"  class="name" id="name1" placeholder="User's Name" required>
             <div class="line"></div>
-            <input type="text"  class="surname" id="surname1" placeholder="User's Surname">
+            <input type="text"  class="surname" id="surname1" placeholder="User's Surname" required>
             <div class="line"></div>
-            <input type="text"  class="newUsername" id="newUser1" placeholder="Username">
+            <input type="text"  class="newUsername" id="newUser1" placeholder="Username" required>
             
            
           </form>
@@ -124,28 +125,28 @@
           <div class="col-6   d-none d-md-block bottom-2">
              
           <form>
-            <input type="text"  class="mail" id="mail1" placeholder="Email">
+            <input type="text"  class="mail" id="mail1" placeholder="Email" required>
             <div class="line"></div>
-            <input type="password"   class="pass" id="pass1" placeholder="Password">
+            <input type="password"   class="pass" id="pass1" placeholder="Password"pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Your password must include a digit, lower cas and upper case text and can be a min of 8 characters." required>
             <div class="line"></div>
-            <input type="password"  class="confirm" id="confirm" placeholder="Confirm Password">
+            <input type="password"  class="confirm" id="confirm" placeholder="Confirm Password" required>
             
             <!-- <input type="text"  id="inputText" placeholder="User Name"> -->
-            
+            <div class="col-12 button-1">
+              <input type="submit" class="btn offset-4 btn-primary sign-btn" value="Submit Form">
+            </div>
+    
+            <div class="col-12 button-2">
+              <input type="submit" class="btn offset-5 btn-outline-secondary sign"value="Submit Form">
+            </div>
+    
+            <div class="col-12 btn-line d-none d-md-block d-lg-none"></div>
           </form>
   
   
           </div>
 
-          <div class="col-12 button-1">
-            <button type="button" class="btn offset-4 btn-primary sign-btn">Sign up</button>
-          </div>
-  
-          <div class="col-12 button-2">
-            <button type="button" class="btn offset-5 btn-outline-secondary sign">Sign up</button>
-          </div>
-  
-          <div class="col-12 btn-line d-none d-md-block d-lg-none"></div>
+          
 
     </div>
 
