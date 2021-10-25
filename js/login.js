@@ -39,7 +39,8 @@
                         sessionStorage.setItem("username", username);
                     }else {
                         // alert("Account not active, please contact support")
-                        $(".indicate").css("backgroundColor", "red" );}
+                        $(".indicate").css("backgroundColor", "red" );
+                        alert("Account not active suspended (U SUS)");}
                 }else {
                     // alert("please fill in required fields")
                     $(".indicate").css("backgroundColor", "red" ); 

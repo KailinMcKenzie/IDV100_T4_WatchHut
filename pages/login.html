@@ -35,11 +35,11 @@
           <h1 class=" d-block d-md-none text-center login">Log In</h1>
         </div>
         <div class="col-12 col-lg-8 offset-lg-2 bottom"> <!--The Bottom is the part of the login and register forms where the input fields are displayed-->
-          <form>
+          <form onsubmit="return false;">
             <h1 class="d-none d-md-block login">Log In</h1>
             <input type="text"  id="inputText" placeholder="User Name" class="required username" required>
             <div class="line indicate"></div>
-            <input type="password"  id="inputPassword"  class="required password" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Your password must include a digit, lower cas and upper case text and can be a min of 8 characters." required>
+            <input type="password"  id="inputPassword" class="required password" placeholder="Password" required>
             <div class="line indicate"></div>
           
             <input type="submit" class="log-btnn" value="Log in">
@@ -70,7 +70,7 @@
      <!-- For sm devices -->
      <!-- Register form two begin -->
       <div class="col-12 col-lg-8 offset-lg-2 d-block d-md-none bottom-2">
-        
+
         <form onsubmit="return false;">
           <h1 class="d-none d-md-block login">Register</h1>
           <input type="text"  class="name" id="name2" placeholder="User's Name" required>
