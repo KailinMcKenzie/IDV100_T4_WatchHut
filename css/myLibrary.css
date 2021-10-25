@@ -97,6 +97,8 @@
 
 .row {
     padding-top: 25px;
+    background-color: black;
+    height: 1800px;
 }
 
                                                     /*one*/
@@ -106,16 +108,23 @@
     height: 350px;
     margin-bottom: 15px;
     border-radius: 10px;
-}                
+}   
+
+.block {
+    padding-left: 35px !important;
+}
 
 .image {
-    height: 200px;
-    width: 100%;
     background-color: aquamarine;
     border-radius: 10px;
     cursor: pointer;
     box-shadow: -4px 4px 5px 0 #000;
-    transition: 0.8s;
+    transition: 0.5s;
+    margin-top: 25px;
+    background-repeat: none;
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
 }
 
 .image:hover {
@@ -132,15 +141,31 @@ li {
 .Pg {
     width: 30%;
     height: 20px;
+    margin-top: -20px;
+    border-radius: 10px;
+    float: right;
 }
 
 .Movie_title {
-    height: 100px;
+    height: 50px;
     width: 100%;
     overflow: auto;
     font-size: 15px;
     font-weight: 600px;
-    color: black;
+    color: rgb(255, 255, 255);
     margin-top: 10px;
+}
+
+.knoppie {
+    position: absolute;
+    margin: 0 auto;
+    top: 260px;
+    left: 10px;
+    width: 120px;
+    height: 25px;
+    background-color: rgb(33, 137, 155);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
 }
 
