@@ -58,7 +58,7 @@
 
  });
 
- // Sign in function of redirecting
+ 
  $('.sign').click(function(){
     // alert("click")
     var firstName= $('#name1').val();
@@ -68,32 +68,70 @@
     var firstName2= $('#name2').val();
     var surname2 = $('#surname2').val();
     var username2 = $('#newUser2').val();
+     
+    var pass1 = $("#pass1").val();
+    var pass2 = $("#confirm").val();
 
-    if(pass1 != pass2 ){
-        alert("Your passwords do not match")
+
+    if(pass1 === pass2 ){
+       
+        sessionStorage.setItem('firstname', firstName);
+       console.log(firstName2);
+
+       sessionStorage.setItem('surname', surname);
+       console.log(surname2);
+
+       sessionStorage.setItem('username', username);
+
+    
+       sessionStorage.setItem('firstname', firstName2);
+       console.log(firstName2);
+
+       sessionStorage.setItem('surname', surname2);
+       console.log(surname2);
+
+      sessionStorage.setItem('username', username2);
+      console.log(username2)
+    
+     window.location.href = "../index.html";
 
     }else{
-
-    sessionStorage.setItem('firstname', firstName);
-    console.log(firstName2);
-
-    sessionStorage.setItem('surname', surname);
-    console.log(surname2);
-
-    sessionStorage.setItem('username', username);
+        alert("Your passwords do not match")
 
     
-    sessionStorage.setItem('firstname', firstName2);
-    console.log(firstName2);
+    }
 
-    sessionStorage.setItem('surname', surname2);
-    console.log(surname2);
+    var smallPass1 = $("#pass2").val();
+    var smallPass2 = $("#confirm2").val();
 
-    sessionStorage.setItem('username', username2);
-    console.log(username2)
+
+    if(smallPass1 === smallPass2 ){
+       
+        sessionStorage.setItem('firstname', firstName);
+       console.log(firstName2);
+
+       sessionStorage.setItem('surname', surname);
+       console.log(surname2);
+
+       sessionStorage.setItem('username', username);
+
     
-    window.location.href = "../index.html";
- }
+       sessionStorage.setItem('firstname', firstName2);
+       console.log(firstName2);
+
+       sessionStorage.setItem('surname', surname2);
+       console.log(surname2);
+
+      sessionStorage.setItem('username', username2);
+      console.log(username2)
+    
+     window.location.href = "../index.html";
+
+    }else{
+        alert("Your passwords do not match")
+
+    
+    }
 
  });
 
