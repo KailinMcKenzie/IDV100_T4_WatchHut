@@ -59,71 +59,48 @@
  });
 
  
- $('.sign').click(function(){
+ $('.sign1').click(function(){
     // alert("click")
-    // var firstName= $('#name1').val();
-    // var surname = $('#surname1').val();
-    // var username = $('#newUser1').val();
 
-    // var firstName2= $('#name2').val();
-    // var surname2 = $('#surname2').val();
-    // var username2 = $('#newUser2').val();
-     
-    // var pass1 = $("#pass1").val();
-    // var pass2 = $("#confirm").val();
+    var pass1 = $("#pass1").val();
+    var pass2 = $("#confirm").val();
+    var firstName = $('#name1').val();
+    var surname = $('#surname1').val();
+    var username = $('#newUser1').val();
+    var mail= $('#mail1').val();
+
+    if(pass1 === pass2  && pass1 != "" && pass2 != ""){
+
+    sessionStorage.setItem('firstname', firstName);
+    sessionStorage.setItem('surname', surname);
+    sessionStorage.setItem('username', username);
+    sessionStorage.setItem('mail', mail);
 
 
-    if(pass1 === pass2 ){
-       
-        sessionStorage.setItem('firstname', firstName);
-       console.log(firstName2);
-
-       sessionStorage.setItem('surname', surname);
-       console.log(surname2);
-
-       sessionStorage.setItem('username', username);
-
-    
-       sessionStorage.setItem('firstname', firstName2);
-       console.log(firstName2);
-
-       sessionStorage.setItem('surname', surname2);
-       console.log(surname2);
-
-      sessionStorage.setItem('username', username2);
-      console.log(username2)
-    
-     window.location.href = "../index.html";
+    window.location.href = "../index.html";
 
     }else{
         alert("Your passwords do not match")
-
-    
     }
+
+});
+
+$('.sign').click(function(){
 
     var smallPass1 = $("#pass2").val();
     var smallPass2 = $("#confirm2").val();
+    var firstName1 = $('#name2').val();
+    var surname1 = $('#surname2').val();
+    var username1 = $('#newUser2').val();
+    var mail1= $('#mail2').val();
 
 
-    if(smallPass1 === smallPass2 ){
+    if(smallPass1 === smallPass2 && smallPass1 != "" && smallPass2 != ""){
        
-        sessionStorage.setItem('firstname', firstName);
-       console.log(firstName2);
-
-       sessionStorage.setItem('surname', surname);
-       console.log(surname2);
-
-       sessionStorage.setItem('username', username);
-
-    
-       sessionStorage.setItem('firstname', firstName2);
-       console.log(firstName2);
-
-       sessionStorage.setItem('surname', surname2);
-       console.log(surname2);
-
-      sessionStorage.setItem('username', username2);
-      console.log(username2)
+    sessionStorage.setItem('firstname', firstName1);
+    sessionStorage.setItem('surname', surname1);
+    sessionStorage.setItem('username', username1);
+    sessionStorage.setItem('mail', mail1);
     
      window.location.href = "../index.html";
 

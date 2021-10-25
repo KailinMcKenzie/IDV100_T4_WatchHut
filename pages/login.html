@@ -64,30 +64,32 @@
 
       </div> <!--Top ends-->
 
-      <div class="col-12 col-lg-8 offset-lg-2">
+      <div class="col-12 col-lg-8 offset-lg-2 login">
         <h1 class=" d-block d-md-none text-center login">Register</h1>
-
       </div>
      <!-- For sm devices -->
      <!-- Register form two begin -->
       <div class="col-12 col-lg-8 offset-lg-2 d-block d-md-none bottom-2">
-        <form>
+        
+        <form onsubmit="return false;">
           <h1 class="d-none d-md-block login">Register</h1>
-          <input type="text"  class="name" id="name2" placeholder="User's Name">
+          <input type="text"  class="name" id="name2" placeholder="User's Name" required>
           <div class="line"></div>
-          <input type="text" class="surname" id="surname2" placeholder="User's Surname">
+          <input type="text" class="surname" id="surname2" placeholder="User's Surname" required>
           <div class="line"></div>
-          <input type="text"  class="newUsername" id="newUser2" placeholder="Username ">
+          <input type="text"  class="newUsername" id="newUser2" placeholder="Username " required>
           
           <!-- <input type="text"  id="inputText" placeholder="User Name"> -->
           <div class="line"></div>
-          <input type="text"  class="mail" id="mail2" placeholder="Email">
+          <input type="text"  class="mail" id="mail2" placeholder="Email" required>
           <div class="line"></div>
 
-          <input type="password"  class="pass" id="pass2" placeholder="Password">
+          <input type="password"  class="pass" id="pass2" placeholder="Password" required>
           <div class="line"></div>
-          <input type="password"  class="confirm" id="confirm2" placeholder="Confirm Password">
+          <input type="password"  class="confirm" id="confirm2" placeholder="Confirm Password" required>
           <div class="line"></div>
+
+          <input type="submit" class="btn offset-5 btn-outline-secondary sign"value="Submit Form">
 
           
         </form>
@@ -108,7 +110,7 @@
         <div class="col-6 d-none d-md-block bottom">
 
 
-          <form>
+          <form onsubmit="return false;">
            
             <input type="text"  class="name" id="name1" placeholder="User's Name" required>
             <div class="line"></div>
@@ -122,9 +124,9 @@
   
           </div>
 
-          <div class="col-6   d-none d-md-block bottom-2">
+          <div class="col-6 d-none d-md-block bottom-2">
              
-          <form>
+          <form onsubmit="return false;">
             <input type="text"  class="mail" id="mail1" placeholder="Email" required>
             <div class="line"></div>
             <input type="password"   class="pass" id="pass1" placeholder="Password"pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Your password must include a digit, lower cas and upper case text and can be a min of 8 characters." required>
@@ -137,7 +139,7 @@
             </div>
     
             <div class="col-12 button-2">
-              <input type="submit" class="btn offset-5 btn-outline-secondary sign"value="Submit Form">
+              <input type="submit" class="btn offset-5 btn-outline-secondary sign1"value="Submit Form">
             </div>
     
             <div class="col-12 btn-line d-none d-md-block d-lg-none"></div>

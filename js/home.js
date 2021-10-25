@@ -10,6 +10,8 @@ $(function() {
         
 
         $('.content h1').html('Welcome to Watchut, ' +  sessionStorage.getItem('username'));
+        
+
 
         
 
