@@ -24,7 +24,7 @@ $(function() {
 
             var MovieBlock = "<div class='col-lg-3 col-md-4 col-sm-4 block'>\
             <div class='one'>\
-              <div class='image'><img src='https://image.tmdb.org/t/p/original"+ Movies.results[i].poster_path +"'style='height: 100%; width: 100%; object-fit: cover'><div class='Save'></div>\
+              <div class='image'><img src='https://image.tmdb.org/t/p/original"+ Movies.results[i].poster_path +"'style='height: 100%; width: 100%; object-fit: cover'><div class='knoppie'>Remove</div><div class='Save'></div>\
               <div class='info'>\
                 <h3 class='Movie_title'>"+ Movies.results[i].original_title +"</h3>\
                 <ul>\
