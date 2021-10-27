@@ -17,82 +17,29 @@
     margin: 0 auto;
     padding-left: 50px;
     padding-right: 50px;
+    padding-top: 50px;
     height: 100px;
     width: 100%;
     background-color: grey;
     display: flex;
 }
 
-.fiction {
+.filter-button {
     height: 100px;
-    padding-top: 50px;
-   
-    text-align: center;
-    margin: 0 auto;
-}
-
-.fiction:hover {
-    cursor: pointer;
-}
-
-.animation {
-    height: 100px;
-    padding-top: 50px;
     
     text-align: center;
     margin: 0 auto;
 }
 
-.animation:hover {
+.filter-button:hover {
     cursor: pointer;
 }
 
-.drama {
-    height: 100px;
-    padding-top: 50px;
-   
-    text-align: center;
-    margin: 0 auto;
-}
-
-.drama:hover {
-    cursor: pointer;
-}
-
-.comedy {
-    height: 100px;
-    padding-top: 50px;
-    
-    text-align: center;
-    margin: 0 auto;
-}
-
-.comedy:hover {
-    cursor: pointer;
-}
-
-.horror {
-    height: 100px;
-    padding-top: 50px;
-    
-    text-align: center;
-    margin: 0 auto;
-}
-
-.horror:hover {
-    cursor: pointer;
-}
-
-.romance {
-    height: 100px;
-    padding-top: 50px;
- 
-    text-align: center;
-    margin: 0 auto;
-}
-
-.romance:hover {
-    cursor: pointer;
+.filter-active {
+    background-color: red;
+    width: 100px;
+    height: 25px;
+  
 }
 
 .row {
@@ -103,8 +50,6 @@
 
                                                     /*one*/
 .one {
-    margin: 0 auto;
-    width: 100% !important;
     height: 350px;
     margin-bottom: 15px;
     border-radius: 10px;
