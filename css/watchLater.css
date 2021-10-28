@@ -1,7 +1,24 @@
 .heading {
- color: black;
+    color: black;
+    font-family: 'wire one';
+    font-size: 4em;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 75px;
     margin-top: 100px;
     padding-left: 100px;
+    margin-bottom: 30px;
+}
+
+
+.navigation {
+    color: white;
+}
+
+.container-fluid2 {
+    background-color: black;
+    height: 1000px;
 }
 
 .one {
@@ -9,8 +26,7 @@
     width: 100% !important;
     height: 350px;
     margin-bottom: 15px;
-    border-radius: 10px;
-    
+    border-radius: 10px;    
 }                
 
 .image {
@@ -39,6 +55,7 @@ li {
     display: inline-block;
     list-style: none;
     text-align: center;
+ 
 }
 
 .Pg {
@@ -71,4 +88,29 @@ li {
     color: white;
     text-align: center;
 }
+
+/*Footer*/
+#footer {
+    background-color: #b6b4c2;
+    padding: 2% 15%;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .social-icon {
+    margin: 20px 10px;
+    cursor: pointer;
+  }
+  
+  .social-icon:hover {
+    color: #aac9ce;
+  }
+  
+  .footername {
+    color: coral;
+  }
+  .footername:hover {
+    text-decoration: none;
+    color: crimson;
+  }
 
