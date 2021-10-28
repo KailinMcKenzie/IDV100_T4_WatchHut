@@ -9,6 +9,7 @@
     margin-top: 100px;
     padding-left: 100px;
     margin-bottom: 30px;
+    border-bottom: 2px solid black;
 }
 
 
@@ -17,7 +18,7 @@
 }
 
 .container-fluid2 {
-    background-color: black;
+    background-color: white;
     height: 1000px;
 }
 
@@ -83,7 +84,7 @@ li {
     left: 10px;
     width: 120px;
     height: 25px;
-    background-color: rgb(12, 49, 56);
+    background-color: rgb(33, 137, 155);
     border-radius: 10px;
     color: white;
     text-align: center;
