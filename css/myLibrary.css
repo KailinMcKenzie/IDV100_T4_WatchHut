@@ -1,34 +1,35 @@
 .personalise {
     margin: 0 auto;
-    height: 500px;
-    background-color: coral;
+    height: 800px;
+    display: flex;
+    opacity: 0.6;
 }
 
 .text-personalise {
-    margin: 0 auto;
-    height: 500px;
-    width: 800px;
-    padding-top: 100px;
-    color: white;
-    background-color: cornflowerblue;
+    color: black;
+    font-family: 'wire one';
+    font-size: 4em;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 75px;
+    position: absolute;
+    margin-top: -500px;
+    text-align: center;
 }
 
 .genre-heading {
     margin: 0 auto;
-    padding-left: 50px;
-    padding-right: 50px;
+    position: absolute;
     padding-top: 50px;
-    height: 100px;
+    height: 30px !important;
     width: 100%;
     background-color: grey;
-    display: flex;
 }
 
 .filter-button {
     height: 100px;
-    
     text-align: center;
-    margin: 0 auto;
 }
 
 .filter-button:hover {
@@ -36,19 +37,20 @@
 }
 
 .filter-active {
-    background-color: red;
-    width: 100px;
+    background-color: rgb(49, 136, 122);
+    width: 100%;
     height: 25px;
-  
+    border-radius: 10px;
 }
 
 .row {
     padding-top: 25px;
     background-color: black;
+    width: 100%;
     height: 1800px;
 }
 
-                                                    /*one*/
+   /*one*/
 .one {
     height: 350px;
     margin-bottom: 15px;
@@ -65,13 +67,15 @@
     cursor: pointer;
     box-shadow: -4px 4px 5px 0 #000;
     transition: 0.5s;
-    margin-top: 25px;
+    margin-top: 50px;
     background-repeat: none;
     width: 200px;
-    height: 300px;
+    height: 250px;
     border-radius: 10px;
 }
-
+.genre{
+height: 50px !important;
+}
 .image:hover {
     transform: translateY(-10px);
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
@@ -94,7 +98,7 @@ li {
 .Movie_title {
     height: 50px;
     width: 100%;
-    overflow: auto;
+    overflow: hidden;
     font-size: 15px;
     font-weight: 600px;
     color: rgb(255, 255, 255);
@@ -114,3 +118,50 @@ li {
     text-align: center;
 }
 
+@media (max-width:500px){
+    .filter-button{
+        font-size: 12px;
+    }
+
+    .filter-active{
+        width: 50px;
+    }
+
+    .genre-heading {
+       
+        height: 90px !important;
+        
+    }
+
+    .image {
+        width: 125px;
+        height: 200px;
+        
+    }
+}
+
+
+/*Footer*/
+#footer {
+    background-color: #b6b4c2;
+    padding: 2% 15%;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .social-icon {
+    margin: 20px 10px;
+    cursor: pointer;
+  }
+  
+  .social-icon:hover {
+    color: #aac9ce;
+  }
+  
+  .footername {
+    color: coral;
+  }
+  .footername:hover {
+    text-decoration: none;
+    color: crimson;
+  }
