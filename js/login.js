@@ -7,15 +7,6 @@
       $(".button-1").hide()
       $(".reg-container").slideDown();
   });
-// error function
-//  $(".log-btn").click(function(){
-
-//     if($(".required").val().length === 0){
-//         alert("please fill in required fields")
-//         $(".indicate").css("backgroundColor", "red" ); 
-//     }
-//  });
-// error function
 
 //Authentication function for login page
  $(".log-btnn").on("click", function(){
@@ -59,7 +50,7 @@
 
  });
 
- 
+ //register functionallity
  $('.sign1').click(function(){
     // alert("click")
 
@@ -118,11 +109,3 @@ $('.sign').click(function(){
 });
 
 
-// "username": "Pam Beesly",
-// 		"password": "<<L5EVys4LFe[9}C", 
-//         "account": "active"
-//     },
-
-// "username": "Michael Scott",
-//         "password": "password", 
-//         "account": "suspended"

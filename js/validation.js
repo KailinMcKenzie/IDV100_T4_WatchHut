@@ -1,3 +1,4 @@
+//clear session storage and local storage
 $(function() {
     
     var test = sessionStorage.getItem('username');
@@ -5,6 +6,7 @@ $(function() {
 
     $(".deleteSession").click(function(){
         sessionStorage.clear();
+        localStorage.clear();
     })
 
     if(test === null){
