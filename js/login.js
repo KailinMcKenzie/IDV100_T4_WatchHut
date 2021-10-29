@@ -1,6 +1,6 @@
  $(function() {
     console.log("Ready");
-
+ //hiding register page
   $(".reg-container").hide();
   $(".create").click(function(){
       $(".main-container").slideUp();
