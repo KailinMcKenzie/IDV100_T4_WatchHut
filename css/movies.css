@@ -327,4 +327,145 @@ line-height: 17px;
 color: #000000;
 }
 
+header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 100px;
+  z-index: 1000;
+}
+header .logo{
+  max-width: 120px;
+}
+header .toggle{
+  max-width: 60px;
+  cursor: pointer;
+}
+.banner{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 0 100px;
+  background: url(FreeGuy.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.banner .content{
+  max-width: 550px;
+}
+.banner .content h2{
+  font-family: 'wire one';
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 4em;
+  letter-spacing: 0.1em;
+  color: white;
+}
+.banner .content h2 span{
+  font-weight: 800;
+}
+.banner .content p{
+  background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(91,91,91,0.3169642857142857) 35%, rgba(0,0,0,1) 100%);
+  border: 5px double #FFFFFF;
+  border-radius: 20px;
+  padding: 15px;
+  font-family: 'montserrat';
+  font-weight: 400;
+  font-size: 1.5em;
+  letter-spacing: 0.02em;
+  line-height: 1.5em;
+  color: whiite;
+  margin: 15px 0 35px;
+}
+.play{
+  background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(91,91,91,0.3169642857142857) 35%, rgba(0,0,0,1) 100%);
+  border: 5px double #FFFFFF;
+  border-radius: 20px;
+  padding: 15px;
+  position: relative;
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-size: 1.2em;
+}
+.play img{
+  margin-right: 10px;
+  max-width: 50px;
+}
+.trailer{
+  background-color: #aac9ce;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 10000;
+  background: rgba(0, 0, 0, 0.95);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0;
+}
+.trailer.active{
+  visibility: visible;
+  opacity: 1;
+}
+.trailer video{
+  max-width: 900px;
+  outline: none;
+}
+.trailer .close{
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  cursor: pointer;
+  filter: invert(1);
+  max-width: 32px;
+}
+
+@media (max-width: 991px){
+  header{
+      padding: 20px 50px;
+  }
+  header{
+      padding: 20px 50px;
+  }
+  header .logo{
+      max-width: 80px;
+  }
+  header .toggle{
+      max-width: 40px;
+  }
+  .banner{
+      padding: 100px 50px;
+  }
+  .banner .content h2{
+      font-weight: 400;
+      font-size: 2em;
+      letter-spacing: 0.05em; 
+  }
+  .banner .content p{
+      font-size: 1em;
+  }
+  .trailer video{
+      max-width: 90%;
+      outline: none;
+  }
+}
+
 

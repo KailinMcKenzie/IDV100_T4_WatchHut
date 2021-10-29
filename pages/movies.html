@@ -17,7 +17,7 @@
     
 
     <!--javaScript-->
-    <script src="js\script.js"></script>
+    <script src="../js/script.js"></script>
     <script src="../js/validation.js"></script>
 
     <!--bootstrap-->
@@ -57,47 +57,28 @@
             </header>
           </div>
       </div>
-      <section class="home">
-        <div class="slider" ></div>
-
-        <video class="video-slide" src="../img/free-guy-movie-2020-4k-7t.jpg" autoplay muted loop ></video>
-  
-        <div class="media-icons">
-          <a href="#"><i class="fa fa-facebook-f"></i></a>
-          <a href="#"><i class="fa fa-instagram"></i></a>
-          <a href="#"><i class="fa fa-twitter"></i></a>
+      <div class="banner" style="background-image: url('../img/FreeGuy.jpg')">
+        <div class="content">
+            <h2>Free Guy</h2>
+            <p>
+              Free Guy is a 2021 American science fiction action comedy film directed by Shawn Levy from a screenplay by Matt Lieberman and Zak Penn, and a story by Lieberman. The film stars Ryan Reynolds as a bank teller, named Guy, who discovers that he is actually a non-player character in an open-world video game and becomes the hero of the story, trying to save his friends from deletion by the game's creator. 
+            </p>
+            <a href="#" class="play" onclick="toggle();"><img src="play.png" alt="">watch trailer</a>
         </div>
-        <div class=""></div>
-        <div class="TitleContent">
-          <div class="movieImage"></div>
-          <div class="content">
-            <h1>Welcome to <br>Watchut</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lacinia, tortor eget sodales elementum, ligula magna aliquam lorem, vitae imperdiet dui ipsum in nisi. Cras ut luctus arcu. Proin odio mauris, elementum et ex ac, pulvinar varius lorem. Mauris egestas quis nulla quis aliquam.</p>
-            <a href="#">Sign up NOW!</a>
-          </div>
-        </div> 
-      </section>
-
-      <section>
-        <div class="infoBlock">
-          <div class="info">
-            <h1>Free Guy </h1>
-            <p>Free Guy is a 2021 American science fiction action comedy film directed by Shawn Levy from a screenplay by Matt Lieberman and Zak Penn, and a story by Lieberman. The film stars Ryan Reynolds as a bank teller, named Guy, who discovers that he is actually a non-player character in an open-world video game and becomes the hero of the story, trying to save his friends from deletion by the game's creator.</p>          
-          </div>
-        </div>
-        <div class="movieImage"></div>
-        
-      </section>
-
-
-      <!-- reccomended movies section start -->
-<section id="ReccomendedMovies">
-  <div class="Container">
-      <h2>Recomended Titles</h2>
-      <div class="row Movies">
-          
-  </div>
-</section>
+    </div>
+    <div class="trailer">
+        <video src="FreeGuy.mp4" controls="true"></video>
+        <img src="close.png" alt="" class="close" onclick="toggle();">
+    </div>
+    <script>
+        function toggle(){
+        var trailer=document.querySelector('.trailer');
+        let video=document.querySelector('.video');
+        trailer.classList.toggle('active');
+        video.currentTime = 0;
+        video.pause();
+    }
+    </script>
 <!-- Reccomended movies section end -->
       
 
