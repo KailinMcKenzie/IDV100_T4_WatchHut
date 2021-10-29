@@ -6,6 +6,12 @@
   font-family: "Poppins", sans-serif;
 }
 
+.carousel-inner {
+  height: 888px;
+  background-size:auto;
+
+ 
+}
 
 .nav {
   position: absolute;
@@ -64,50 +70,8 @@ header.sticky ul li a{
 
 /*Header*/
 /*section*/
-section{
-padding: 100px 200px;
-}
 
-.home{
-  position: relative;
-  width: 100%;
-  min-height:100vh;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
 
-.slider-navigation{
-  z-index: 888;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transform: translateY(80);
-  margin-bottom: 12px 20px;
-}
-
-.slider-navigation .nav-btn{
-  width: 12px;
-  height: 12px;
-  background: #fff;
-  border-radius: 50%;
-  cursor: pointer;
-  box-shadow: 0px 0px 2px rgba(225,225,225,0.5);
-  transition: 0.3s ease;
-}
-
-.slider-navigation .nav-btn.active {
-  background: #000000;
-}
-
-.slider-navigation .nav-btn:not(:last-child){
-  margin-right: 20px;
-}
-
-.slider-navigation .nav-btn:hover{
-  transform: scale(1.2);
-}
 
 .logo {
   position: absolute;
@@ -121,14 +85,14 @@ background: url(img\IDV104Logo.png);
 
 
 
-.home .content{
+.content{
   z-index: 888;
   color: #fff;
   width: 70%;
   margin-top: 50px;
 }
 
-.home .content h1{
+.content h1{
   font-family: 'wire one';
   font-size: 4em;
   font-weight: 900;
@@ -139,19 +103,19 @@ background: url(img\IDV104Logo.png);
 
 }
 
-.home .content h1 span{
+.content h1 span{
   font-size: 1.2em;
   font-weight: 600;
 
 }
 
-.home .content p{
+content p{
   font-family: 'Montserrat';
   margin-bottom: 65px;
 
 }
 
-.home .content a {
+.content a {
   font-family: 'montserrat';
   background: #aac9ce;
   padding: 15px 35px;
@@ -160,7 +124,7 @@ background: url(img\IDV104Logo.png);
 
 }
 
-.home .media-icons {
+.media-icons {
   z-index: 888;
   position: absolute;
   right: 30px;
@@ -169,20 +133,20 @@ background: url(img\IDV104Logo.png);
   transition: 0.5s ease;
 }
 
-.home .media-icons a{
+.media-icons a{
   color: #b6b4c2;
   font-size: 1.6;
 }
 
-.home .media-icons a:not(:last-child){
+.media-icons a:not(:last-child){
   margin-bottom: 20px
 }
 
-.home .media-icons a:hover {
+.media-icons a:hover {
   transform: scale(1.3);
 }
 
-.home video{
+.video{
   z-index: 000;
   position: absolute;
   top: 0;
@@ -202,7 +166,7 @@ background: url(img\IDV104Logo.png);
 section {
   padding: 100px 20px;
 }
-.home .media-icons {
+.media-icons {
   right: 15px;
 }
 
@@ -262,7 +226,7 @@ box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 
 .content {
-  margin: 0 auto;
+
   width:  266!important;
   height: 350px;
   margin-bottom: 150px;
@@ -341,14 +305,6 @@ li {
   color: white;
   text-align: center;
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  color: #fff;
-  font-family: "Poppins", sans-serif;
-}
-
 
 .nav {
   position: absolute;
@@ -456,14 +412,14 @@ transform: scale(1.2);
 
 
 
-.home .content{
+.content{
 z-index: 888;
 color: #000;
 width: 70%;
 margin-top: 50px;
 }
 
-.home .content h1{
+.content h1{
 font-family: 'wire one';
 font-size: 4em;
 font-weight: 900;
@@ -474,19 +430,19 @@ margin-bottom: 40px;
 
 }
 
-.home .content h1 span{
+.content h1 span{
 font-size: 1.2em;
 font-weight: 600;
 
 }
 
-.home .content p{
+.content p{
 font-family: 'Montserrat';
 margin-bottom: 65px;
 
 }
 
-.home .content a {
+.content a {
 font-family: 'montserrat';
 background: #aac9ce;
 padding: 15px 35px;
@@ -495,7 +451,7 @@ border-radius: 5px;
 
 }
 
-.home .media-icons {
+.media-icons {
 z-index: 888;
 position: absolute;
 right: 30px;
@@ -504,20 +460,20 @@ flex-direction: column;
 transition: 0.5s ease;
 }
 
-.home .media-icons a{
+.media-icons a{
 color: #b6b4c2;
 font-size: 1.6;
 }
 
-.home .media-icons a:not(:last-child){
+.media-icons a:not(:last-child){
 margin-bottom: 20px
 }
 
-.home .media-icons a:hover {
+.media-icons a:hover {
 transform: scale(1.3);
 }
 
-.home video{
+.video{
 z-index: 000;
 position: absolute;
 top: 0;
@@ -537,7 +493,7 @@ object-fit: cover;
 section {
   padding: 100px 20px;
 }
-.home .media-icons {
+.media-icons {
   right: 15px;
 }
 
