@@ -109,15 +109,14 @@ padding: 100px 200px;
   transform: scale(1.2);
 }
 
-.video-slide {
+.logo {
   position: absolute;
-  width: 100%;
-  clip-path: circle(0.3% at 0 50%);
-}
+width: 121px;
+height: 83px;
+left: 80px;
+top: 19px;
 
-.video-slide.active {
-  clip-path: circle(150.0% at 0 50%);
-
+background: url(img\IDV104Logo.png);
 }
 
 
