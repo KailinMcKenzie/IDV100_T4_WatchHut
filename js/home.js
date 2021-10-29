@@ -1,3 +1,7 @@
+if(!localStorage.getItem("movieBank")){
+  localStorage.setItem("movieBank", "");
+}
+
 $(function() {
     const urlMovies = "https://api.themoviedb.org/3/movie/popular?api_key=9bff47053902d522f6ec7ea9926c68c2&language=en-US&page=1";
     const urlGenreId = "https://api.themoviedb.org/3/genre/movie/list?api_key=9bff47053902d522f6ec7ea9926c68c2&language=en-US";
@@ -30,7 +34,7 @@ $(function() {
 
             var MovieBlock = "<div class='col-lg-2 col-md-4 col-sm-6 block'>\
             <div class='content'>\
-              <div class='movieImage'><img src='https://image.tmdb.org/t/p/original"+ Movies.results[i].poster_path +"'style='height: 100%; width: 100%; object-fit: cover'><div class='Save'></div>\
+              <div class='movieImage'><img src='https://image.tmdb.org/t/p/original"+ Movies.results[i].poster_path +"'style='height: 100%; width: 100%; object-fit: cover'><div class='watchLater'>Watch Later</div><div class='Save'></div>\
               <div class='info'>\
                 <h3 class='Movie_title'>"+ Movies.results[i].original_title +"</h3>\
                 <ul>\
@@ -66,3 +70,29 @@ $(function() {
 
      
 });
+
+$(".watchLater").click(function(){
+  var movie = $(this).parent().parent()[0];
+  var idMovie = $(movie).data("id");
+  var nonConstant = localStorage.getItem("movieBank");
+  var movieBank ;
+  console.log(nonConstant)
+
+  if(nonConstant == ""){
+      movieBank = [];
+  }else {
+      movieBank = nonConstant.split(",");
+  }
+
+  var isTrue = movieBank.every(item => {
+      return item != idMovie;
+  });
+
+  if(isTrue){
+      movieBank.push(idMovie + "");
+      localStorage.setItem("movieBank", movieBank.join(","));
+  };
+});
+
+
+

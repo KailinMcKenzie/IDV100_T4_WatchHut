@@ -1,28 +1,22 @@
-const btns = document.querySelectorAll(".nav-btn");
-const slides = document.querySelectorAll(".vieo-slide");
 
+  const menuBtn = document.querySelector(".menu-btn");
+  const navigation = document.querySelector(".navigation");
 
-var sliderNav = function(manual) {
-    btns.forEach((btn) => {
-        btn.classList.remove("active")
-    });
+  menuBtn.addEventListener("click", () => {
+    menuBtn.classList.toggle("active");
+    navigation.classList.toggle("active");
+  });
 
-    slides.forEach((slide) => {
-        slide.classList.remove("active")
-    });
+  const btns = document.querySelectorAll(".nav-btn");
 
-    
-
-    btns[manual].classList.add("active")
-    slides[manual].classList.add("active")
-
-}
-
-
-btns.forEach((btn) => {
+  var sliderNav = function(manual){
+      btns.forEach((btn)=>{})
+    btns[manual].classList.add("active");
+  }
+  btns.forEach((btn, i) => {
     btn.addEventListener("click", () => {
-        sliderNav(i);
-    });
-        
-});
+      sliderNav(i);
 
+    });
+
+  });
