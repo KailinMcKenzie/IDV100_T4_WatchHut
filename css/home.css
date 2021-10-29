@@ -85,14 +85,14 @@ background: url(img\IDV104Logo.png);
 
 
 
-.content{
+.home.content{
   z-index: 888;
   color: #fff;
   width: 70%;
   margin-top: 50px;
 }
 
-.content h1{
+.home .content h1{
   font-family: 'wire one';
   font-size: 4em;
   font-weight: 900;
@@ -103,19 +103,19 @@ background: url(img\IDV104Logo.png);
 
 }
 
-.content h1 span{
+.home .content h1 span{
   font-size: 1.2em;
   font-weight: 600;
 
 }
 
-content p{
+.home content p{
   font-family: 'Montserrat';
   margin-bottom: 65px;
 
 }
 
-.content a {
+.home .content a {
   font-family: 'montserrat';
   background: #aac9ce;
   padding: 15px 35px;
@@ -124,7 +124,7 @@ content p{
 
 }
 
-.media-icons {
+.home .media-icons {
   z-index: 888;
   position: absolute;
   right: 30px;
@@ -133,20 +133,20 @@ content p{
   transition: 0.5s ease;
 }
 
-.media-icons a{
+.home .media-icons a{
   color: #b6b4c2;
   font-size: 1.6;
 }
 
-.media-icons a:not(:last-child){
+.home.media-icons a:not(:last-child){
   margin-bottom: 20px
 }
 
-.media-icons a:hover {
+.home .media-icons a:hover {
   transform: scale(1.3);
 }
 
-.video{
+.home .video{
   z-index: 000;
   position: absolute;
   top: 0;
@@ -160,10 +160,10 @@ content p{
 
 /*added resposive nav*/
 @media (max-width: 1040px) {
-  header{
+  .home header{
   padding: 12px 20px;
 }
-section {
+.home .section {
   padding: 100px 20px;
 }
 .media-icons {
